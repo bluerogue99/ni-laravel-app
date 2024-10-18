@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-background {
+    background-color: rgb(79 70 229);
+}
+
+pre {
+    background-color: rgb(31 41 55);
+}
+
+#app div.p-2.rounded-lg.bg-gray-200.text-black > pre {
+    background-color: rgb(31, 41, 55) !important;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.ql-editor {
+    color: #e5e7eb;
+    font-size:16px;
+}
+.quill{
+    height:300px;
+}
+.ql-toolbar {
+    background-color: #e5e7eb;
+}

@@ -1,0 +1,72 @@
+/* Table customization of articles */
+th {
+    color: red; /* Color for table headers */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 16px; /* Add spacing above the table */
+}
+
+/* Header and Cell Styles */
+th, td {
+    padding: 12px 16px; /* Padding for table cells */
+    text-align: left; /* Align text to the left */
+    border: none; /* No border for cells */
+}
+
+/* Header Styles */
+thead {
+    background-color: #1e3a8a; /* Dark blue background for the header */
+}
+
+th {
+    color: #ffffff; /* Light text color for headers */
+    font-weight: bold; /* Bold font for headers */
+    text-transform: uppercase; /* Uppercase text for headers */
+    font-size: 12px; /* Smaller font size for headers */
+}
+
+/* Body Row Styles */
+tbody {
+    background-color: #ffffff; /* White background for body */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e2e8f0; /* Light gray background for even rows */
+}
+
+tbody tr:hover {
+    background-color: #3b82f6; /* Highlight row on hover with Laravel blue */
+}
+
+
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    thead {
+        background-color: #1e3a8a; /* Dark blue background for header in dark mode */
+    }
+
+    th {
+        color: #f0f0f0; /* Light text color for headers in dark mode */
+    }
+
+    tbody {
+        background-color: #1f2937; /* Dark background for body in dark mode */
+    }
+
+    td {
+        color: #f0f0f0; /* Light text color for cells in dark mode */
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #374151; /* Darker gray for even rows in dark mode */
+    }
+
+    tbody tr:hover {
+        background-color: #3b82f6; /* Highlight row on hover in dark mode */
+    }
+}
